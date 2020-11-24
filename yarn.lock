@@ -46,13 +46,14 @@ async-limiter@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
 
-asyncawait@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/asyncawait/-/asyncawait-1.0.6.tgz#e446cf54e516a416d7423bbe35bf0b4e2b738b67"
+asyncawait@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/asyncawait/-/asyncawait-1.0.8.tgz#ecd25d68d870ac36cd96338f844e2a4d2efb7242"
+  integrity sha512-yssMQjNRaFYJbJPXnZQ/G4o5uqBj6Ol7HqjEzjyO7306RHnqLGoenKaVbqUgqhk1QBXZSJ3yf2xhQCWcZjWt6w==
   dependencies:
     bluebird "^3.1.1"
-    fibers "^1.0.8"
-    lodash v3.10.1
+    fibers "^2.0.2"
+    lodash "^4.17.11"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -650,9 +651,10 @@ fd-slicer@~1.0.1:
   dependencies:
     pend "~1.2.0"
 
-fibers@^1.0.8:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/fibers/-/fibers-1.0.15.tgz#22f039c8f18b856190fbbe4decf056154c1eae9c"
+fibers@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/fibers/-/fibers-2.0.2.tgz#36db63ea61c543174e2264675fea8c2783371366"
+  integrity sha512-HfVRxhYG7C8Jl9FqtrlElMR2z/8YiLQVDKf67MLY25Ic+ILx3ecmklfT1v3u+7P5/4vEFjuxaAFXhr2/Afwk5g==
 
 file-type@^3.8.0:
   version "3.9.0"
@@ -1014,9 +1016,10 @@ leftpad@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/leftpad/-/leftpad-0.0.1.tgz#86b1a4de4face180ac545a83f1503523d8fed115"
 
-lodash@v3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+lodash@^4.17.11:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
 lowercase-keys@^1.0.0:
   version "1.0.0"
